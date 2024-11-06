@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Jacques Francois', serif;
+    color: #D3B077;
+}
+
+#kelly{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    border: 2px solid #D3B077;
+    border-radius: 5px;
+    
+}
+
+.tela{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -200px;
+}
+
+#imagem{
+    margin-top: -10%;
+}
+
+#login{
+    align-self: center;
+    font-size: 30px;
+    text-decoration: 2px underline;
+}
+.horario{
+    position: absolute;
+    margin-left:-150px;
+    display: flex;
+    flex-direction: column;
+}
+#font-email{
+    align-self: center;
+    font-size: 25px;
+}
+#email{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 15px;
+}
+
+#font-senha{
+    align-self: center;
+    font-size: 25px;
+}
+#password{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+#logar{
+    border-radius: 5px;
+    border:2px solid #D3B077;
+    background-color: black;
+    color: #D3B077;
+    font-size: 20px;
+    width: 75px;
+    font-family: 'Jacques Francois', serif;
+    align-self: center;
+
+}
+
+#logar:hover{
+    transition: .5s;
+    background-color: #D3B077;
+    color: black;
+    cursor: pointer;
+}
+
+.n-tem-conta{
+    align-self: center;
+    font-size: 15px;
+}
+#maior{
+    font-size:25px ;
+    text-decoration: 2px underline;
+}
+
+a{
+    text-decoration: none;
+    color: #D3B077;
+}
+
+

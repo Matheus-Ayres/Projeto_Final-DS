@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+body {
+    background-color: black; /* Fundo claro */
+    font-family:'Jacques Francois', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#logo {
+    margin-bottom: 20px; /* Espaço abaixo do logo */
+}
+
+#form {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Largura do formulário */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333; /* Cor do texto das labels */
+}
+
+#checkboxes {
+    margin-bottom: 15px; /* Espaço abaixo dos checkboxes */
+}
+
+.checkbox {
+    margin-bottom: 10px; /* Espaço entre os checkboxes */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Espaço à direita dos checkboxes */
+}
+
+input[type="datetime-local"], #botao {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D3B077; 
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+#botao {
+    background-color: #D3B077; /* Botão em dourado */
+    color: black; /* Texto do botão em preto */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#botao:hover {
+    background-color: #C0A16A; /* Cor um pouco mais escura no hover */
+}

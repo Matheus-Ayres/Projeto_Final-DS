@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Jacques Francois', serif;
+    color: #D3B077;
+}
+#cadastrar{
+    font-size: 52px;
+    position: relative;
+    top: 320px;
+    margin-left: 280px;
+         
+}
+
+#kelly-cadastro{
+    position: relative;
+    float: right;
+    border: 6px solid #D3B077;
+    border-radius: 5px;
+    z-index: -1;
+    width: 572.6px;
+    height: 130vh;
+    box-sizing: border-box;
+}
+
+#maior{
+    font-size: 32px;  
+}
+
+.tela{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cad{
+    align-self: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.horario{
+    position: absolute;
+    margin-left:-110px;
+    display: flex;
+    flex-direction: column;
+}
+
+#font-email{
+    position: relative;
+    align-self: center;
+    font-size: 25px;
+}
+
+#font-nome{
+    position: relative;
+    align-self: center;
+    font-size: 25px;
+}
+
+#font-senha{
+    position: relative;
+    align-self: center;
+    font-size: 25px;
+}
+
+.caixa{
+    width: 300px;
+    height: 25px;
+    align-self:center;
+    border-radius:5px ;
+}
+
+#cadastro{
+    border-radius: 5px;
+    border:2px solid #D3B077;
+    background-color: black;
+    color: #D3B077;
+    font-size: 20px;
+    width: 125px;
+    font-family: 'Jacques Francois', serif;
+    align-self: center;
+}
+
+.form{
+    margin-left: -120px;
+}
